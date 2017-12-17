@@ -21,6 +21,7 @@
   h1 {
     color: #5d170c;
     font-weight: bold;
+    text-shadow: 1px 1px 2px black;
   }
 
   p {
@@ -92,7 +93,7 @@
   }
 
   .nav-brand img {
-    width: 50px;
+    width: 10vw;
   }
 
   .fa-bars {
@@ -119,6 +120,7 @@
    position: fixed;
   width: 100%;
   z-index: 500;
+  background-color: rgba(0, 0, 0, 0.007);
   }
 
   .header-links li {
@@ -230,7 +232,7 @@
   }
 
   .aboutme p {
-    color: white;
+    color: #ebebeb;
     font-weight: 100;
     font-size: 17.4px;
   }
@@ -299,10 +301,19 @@
   }
 
   /* about section */
+  #about {
+    background-color: #ebebeb;
+    width: 100vw;
+    /* height: 50vh; */
+    /* padding-top: 3px; */
+    margin-bottom: 3px;
+  }
+
 .main-content {
   z-index: 1;
-  background: white;
+  background-color: #bdbdbd;
   position: relative;
+  padding-top: 3px;
 }
   /* Skill bars */
 .main-content h1 {
@@ -310,7 +321,7 @@
   padding-top: 15px;
 }
 
-.container-skillbar {
+/* .container-skillbar {
     width:100%;
     padding-top:30px;
     padding-right: 2%;
@@ -388,9 +399,18 @@
     line-height:30px;
     color:#ffffff;
     color:rgba(0, 0, 0, 0.5);
-  }
+  } */
 
   /* portfolio section */
+  #portfolio {
+    background: url("http://www.tuchmobile.com/wp-content/uploads/2017/05/personal-website.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    /* height: 50vh; */
+  }
 
   .content {
     margin-left: auto;
@@ -455,6 +475,11 @@
 
   /* input field styles */
 
+  #contact {
+    background-color: white;
+    margin-top: 3px;
+  }
+
 .contact-form {
     padding: 0px 15px 0px 15px;
   }
@@ -486,7 +511,7 @@
 
   #submit {
     outline: none;
-    padding: 12px;
+    /* padding: 12px; */
     min-width: 200px;
     border-radius: 2px;
     border: 2px solid #5d170c;
@@ -510,6 +535,9 @@
   }
 
   /* footer styles */
+  .foot {
+    padding-bottom: 0;
+  }
 
   .footer {
     background-color: #484848;
@@ -521,6 +549,10 @@
     color: white;
     font-weight: bold;
     font-size: 16px;
+  }
+
+  .social-links {
+    /* margin-bottom: 2em; */
   }
 
   .social-links a{
@@ -627,7 +659,7 @@
     font-weight: 500;
     margin-left: 4px;
     font-size: 20px;
-    color: white !important;
+    color: #ebebeb !important;
     -webkit-animation: 1s blink step-end infinite;
     -moz-animation: 1s blink step-end infinite;
     -ms-animation: 1s blink step-end infinite;
@@ -640,7 +672,7 @@
     color: transparent;
   }
   50% {
-    color: white;
+    color: #ebebeb;
   }
 }
 
@@ -649,7 +681,7 @@
     color: transparent;
   }
   50% {
-    color: white;
+    color: #ebebeb;
   }
 }
 
@@ -658,7 +690,7 @@
     color: transparent;
   }
   50% {
-    color: white;
+    color: #ebebeb;
   }
 }
 
@@ -667,7 +699,7 @@
     color: transparent;
   }
   50% {
-    color: white;
+    color: #ebebeb;
   }
 }
 
@@ -676,7 +708,7 @@
     color: transparent;
   }
   50% {
-    color: white;
+    color: #ebebeb;
   }
 }
 

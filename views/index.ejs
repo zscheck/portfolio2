@@ -2,8 +2,10 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="description" content="JavaScript Developer">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css" />
         <link rel="icon"
@@ -20,9 +22,9 @@
             <i class="fa fa-bars fa-3x"></i>
                 <div class="header-links">
                     <ul>
-                        <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
-                        <li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
-                        <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+                        <li data-menuanchor="fourthPage"><a class="fuzzy fadeInDown" href="#contact">CONTACT</a></li>
+                        <li data-menuanchor="thirdPage"><a class="fuzzy fadeInDown" href="#portfolio">PORTFOLIO</a></li>
+                        <li data-menuanchor="secondPage"><a class="fuzzy fadeInDown" href="#about">ABOUT</a></li>
                     </ul>
                 </div>
             </div>
@@ -50,33 +52,47 @@
         
             <!-- begin section -->
         
-            <div id="home" class="section aboutme" data-anchor="home">
-                <div class="opaque-bg animated fadeInDown">
-                    <h1 class="fuzzy" style="color:white">
-                        <span style="color:#c5c7bf">
-                            <i class="fa fa-chevron-left" aria-hidden="true"></i>
-                        </span>
-                        Zachary
-                        <span style="color:#5d170c">
-                            /
-                        </span>
-                        Scheck
-                        <span style="color:#5d170c">
-                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                        </span>
-                    </h1>
-                    <p class="fuzzy"></span><span id="holder"></span><span class="blinking-cursor">|</span></p>
-                </div>
-                <a href="#about"><i class="fa fa-angle-double-down fa-5x bounce" aria-hidden="true"></i></a>
+        <div id="home" class="section aboutme" data-anchor="home">
+            <div class="opaque-bg animated fadeInDown">
+                <h1 class="fuzzy" style="color:#ebebeb">
+                    <span style="color:#c5c7bf">
+                        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    </span>
+                    Zachary
+                    <span style="color:#5d170c">
+                        /
+                    </span>
+                    Scheck
+                    <span style="color:#5d170c">
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </span>
+                </h1>
+                <p class="fuzzy"></span><span id="holder"></span><span class="blinking-cursor">|</span></p>
             </div>
+            <a href="#about"><i class="fa fa-angle-double-down fa-5x bounce" aria-hidden="true"></i></a>
+        </div>
             <!-- end section -->
         <div class="main-content">
             <!-- begin section -->
         
             <div id="about" class="section skills" data-anchor="about">
                 <div class="content">
-                    <h1 class="fadeInDown">ABOUT ME</h1>
-                    <p class="fadeInDown">Hi, I'm Zach Scheck!</p>
+                    <h1>ABOUT ME</h1>
+                    <div class="row valign-wrapper">
+                        <div class="col s4">
+                            <img src="my_pic.jpeg" alt="profile pic" class="circle responsive-img">
+                        </div>
+                        <div class="col s8">
+                            <span class="black-text">
+                                    Originally from Chicago, and new to the San Diego area,
+                                    I'm a web developer with a strong interest in projects that require both conceptual and analytical thinking,
+                                    who is fully committed to designing and developing innovative web-based materials that users will love.
+                                    Prior to my career as a web developer, I was a proprietary trader living in the world of fast paced markets.
+                                    I'm always eager to learn more tricks from anyone, regardless of the industry they're working in.
+                            </span>
+                        </div>
+                    </div>
+                    <!-- <p class="fadeInDown">Hi, I'm Zach Scheck!</p> -->
             
                     <!-- <div class=" fadeInUp container-skillbar">
                         <div class="skillbar clearfix " data-percent="90%">
@@ -121,40 +137,15 @@
         
             <!-- begin section -->
         
-            <div id="portfolio" class="section" data-anchor="portfolio">
+            <div id="portfolio" class="section projects" data-anchor="portfolio">
                 <h1>PROJECTS</h1>
-                <!-- <div class="content-slide">
-                    <div class="slide">
-                        <h1 class="fadeInDown">XFAIRE</h1>
-                        <p class="fadeInDown">Digital streaming service</p>
-                        <img class="fadeInUp" data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/xfaire.jpg">
-                    </div>
-                    <div class="slide">
-                        <h1>MACHETE ENERGY</h1>
-                        <p>Energy drink website</p>
-                        <img data-src="http://img1.wikia.nocookie.net/__cb20130506163828/adventuretimewithfinnandjake/images/0/05/Jackie-chan-meme.jpg">
-                    </div>
-                    <div class="slide">
-                        <h1>PORTFOLIO</h1>
-                        <p>Mockup of a personal portfolio I was working on for a friend.</p>
-                        <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/cascioportfolio.jpg">
-                    </div>
-                    <div class="slide">
-                        <h1>THATONEBLOG</h1>
-                        <p>Minimalist blogging platform.</p>
-                        <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/blog.jpg">
-                    </div>
-                    <div class="slide">
-                        <h1>PIXBORED</h1>
-                        <p>Website for sharing images and gifs.</p>
-                        <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/pixbored.jpg">
-                    </div>
-                    <div class="slide">
-                        <h1>PERSONAL WEBSITE</h1>
-                        <p>Responsive vertical/horizontal header website theme.</p>
-                        <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/personalsite.jpg">
-                    </div>
-                </div> -->
+                <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="Delicious_Deliveries.png"></a>
+                    <a class="carousel-item" href="#two!"><img src="MLB_Tailgates.png"></a>
+                    <a class="carousel-item" href="#three!"><img src="Movie_Finder.png"></a>
+                    <a class="carousel-item" href="#four!"><img src="Portfolio.png"></a>
+                    <a class="carousel-item" href="#five!"><img src="Weather_App.png"></a>
+                </div>
             </div>
             <!-- end section -->
         
@@ -198,11 +189,11 @@
         
             <!-- begin section -->
         
-            <div class="section fp-auto-height">
+            <div class="section foot fp-auto-height">
                 <div class="footer">
                     <p>CONNECT WITH ME</p>
                     <div class="social-links">
-                        <span><a href="https://www.linkedin.com/in/zachary-scheck-55723b155/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></span>
+                        <span><a href="https://www.linkedin.com/in/zachscheck/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></span>
                         <span><a target="_blank" href="https://www.facebook.com/zach.scheck" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></span>
                         <span><a href="https://github.com/zscheck" target="_blank"><i class="fa fa-github fa-2x"></i></a></span>
                         <span><a href="mailto:zach.scheck@gmail.com?subject=HEY ZACH!"><i class="fa fa-envelope fa-2x"></i></a></span>
@@ -213,6 +204,8 @@
         
         </div>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
         <script type="text/javascript" src="js/animation.js"></script>
     </body>
 </html>

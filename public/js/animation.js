@@ -54,25 +54,21 @@ $(document).ready(function() {
     
       $(document).ready(main);
       
-    
-      // move section down one
-    //   $(document).on('click', '#moveDown', function(){
-    //     $.fn.fullpage.moveSectionDown();
-    //   });
-    
-    //   // fullpage.js link navigation
-    //   $(document).on('click', '#skills', function(){
-    //     $.fn.fullpage.moveTo(2);
-    //   });
-    
-    //   $(document).on('click', '#projects', function(){
-    //     $.fn.fullpage.moveTo(3);
-    //   });
-    
-    //   $(document).on('click', '#contact', function(){
-    //     $.fn.fullpage.moveTo(4);
-    //   });
-    
+        $('.carousel').carousel();  
+            // Next slide
+        // $('.carousel').carousel('next');
+        // $('.carousel').carousel('next', 3); // Move next n times.
+
+        // Previous slide
+        // $('.carousel').carousel('prev');
+        // $('.carousel').carousel('prev', 4); // Move prev n times.
+
+        // Set to nth slide
+        // $('.carousel').carousel('set', 4);
+
+        // Destroy carousel
+        // $('.carousel').carousel('destroy');
+        // $('.carousel.carousel-slider').carousel({fullWidth: true});
     
       //ajax form
       $(function() {
