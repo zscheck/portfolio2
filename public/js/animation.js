@@ -74,7 +74,7 @@ $(document).ready(function() {
       $(function() {
     
         // Get the form.
-        var form = $('#ajax-contact');
+        var form = $('#contact-form');
     
         // Get the messages div.
         var formMessages = $('#form-messages');

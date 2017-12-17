@@ -551,10 +551,6 @@
     font-size: 16px;
   }
 
-  .social-links {
-    /* margin-bottom: 2em; */
-  }
-
   .social-links a{
     color: white;
     padding: 0px 5px 0px 5px;
@@ -597,7 +593,7 @@
   }
 
 /* loading screen animation */
-
+/* 
   .spinner {
     position: fixed;
     width: 100%;
@@ -637,7 +633,7 @@
   .spinner .rect5 {
     -webkit-animation-delay: -0.8s;
     animation-delay: -0.8s;
-  }
+  } */
 
   @-webkit-keyframes sk-stretchdelay {
     0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  

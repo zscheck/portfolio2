@@ -6,25 +6,23 @@
         <div class="contact-form">
 
         <div id="form-messages"></div>
-        <form id="ajax-contact" method="post" role="form" action="contact.php" data-toggle="validator">
-            <div class="form-group has-feedback fadeInLeft">
+        <form id="contact-form" method="POST" role="form" action="/thanks" data-toggle="validator">
+            <div class="form-group">
                 <input type="text" class="form-control" id="name" name="name" placeholder="NAME" data-error="Field can't be blank!" required>
                 <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                 <div class="help-block with-errors"></div>
             </div>
-
-            <div class="form-group has-feedback fadeInRight">
+            <div class="form-group">
                 <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL" data-error="Field can't be blank!" required>
                 <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                 <div class="help-block with-errors"></div>
             </div>
-
-            <div class="form-group has-feedback fadeInLeft">
-                <textarea data-minlength="10" class="form-control" id ="message" name="message" placeholder="MESSAGE" data-error="Minimum of 10 characters" required></textarea>
+            <div class="form-group">
+                <textarea data-minlength="10" class="form-control" id ="message" name="message" placeholder="MESSAGE"></textarea>
                 <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                 <div class="help-block with-errors"></div>
             </div>
-            <div class="fadeInUp">
+            <div>
                 <button type="submit" id="submit" name="submit" class="btn btn-lg">SEND MESSAGE</button>
             </div>
         </form> 
