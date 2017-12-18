@@ -412,17 +412,21 @@
     /* height: 50vh; */
   }
 
+  /* .activator {
+    width: 50vw;
+  } */
+
   .content {
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
   }
 
-  .content-slide {
+  /* .content-slide {
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
-  }
+  } */
 
   .content-slide img {
     width: 70%;

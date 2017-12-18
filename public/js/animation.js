@@ -69,6 +69,7 @@ $(document).ready(function() {
         // Destroy carousel
         // $('.carousel').carousel('destroy');
         // $('.carousel.carousel-slider').carousel({fullWidth: true});
+        $('.materialboxed').materialbox();
     
       //ajax form
       $(function() {
