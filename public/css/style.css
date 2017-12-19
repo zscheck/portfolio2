@@ -314,17 +314,17 @@
     margin-bottom: 3px;
   }
 
-.main-content {
-  z-index: 1;
-  background-color: #bdbdbd;
-  position: relative;
-  padding-top: 3px;
-}
+  .main-content {
+    z-index: 1;
+    background-color: #bdbdbd;
+    position: relative;
+    padding-top: 3px;
+  }
   /* Skill bars */
-.main-content h1 {
-  margin-top: 0;
-  padding-top: 15px;
-}
+  .main-content h1 {
+    margin-top: 0;
+    padding-top: 15px;
+  }
 
   /* portfolio section */
   #portfolio {
@@ -364,6 +364,24 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
+  }
+
+  .hidden {
+    display: none;
+  }
+  @keyframes fadeIn {
+    0%{
+      transform: translateY(10px);
+      opacity: 0;
+    }
+    100%{
+      tranform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .shown {
+    animation: fadeIn 750ms ease forwards;
+    display: block;
   }
 
   /* .content-slide {

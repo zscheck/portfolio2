@@ -70,6 +70,39 @@ $(document).ready(function() {
         // $('.carousel').carousel('destroy');
         // $('.carousel.carousel-slider').carousel({fullWidth: true});
         $('.materialboxed').materialbox();
+
+        //Query the parent container and child divs
+        const carouselWrapper = document.querySelector(".wrapper-parent");
+        const projects = carouselWrapper.children;
+
+        //Query the description parent wrapper
+        const descWrapper = document.querySelector(".description-wrappers");
+        const descriptions = descWrapper.children;
+
+        //Add a click listener in every child
+        for (let i in projects) {
+          //Assign let project for each project in loop
+          let project = projects[i];
+          // 
+          $(project).click(e => {
+            console.log("B", e.target.children[0].attributes[0].value);
+            //Assign dataset named anchor, display it on the N/A header
+           let datasetAnchored = e.target.children[0].attributes[0].value;
+            //Filter through the children
+            for (let j in descriptions) {
+              let desc = descriptions[j];
+              console.log(desc.dataset.index, datasetAnchored);
+              console.log(desc.dataset.index !== datasetAnchored);
+              if (desc.dataset.index == datasetAnchored) {
+                desc.classList.remove("hidden");
+                desc.classList.add("active");
+              } else {
+                desc.classList.remove("active");
+                desc.classList.add("hidden");
+              }
+            }
+          });
+        }
     
       //ajax form
       $(function() {
