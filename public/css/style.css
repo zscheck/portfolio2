@@ -9,8 +9,7 @@
     padding: 0;
   }
 
-  ul
-  {
+  ul {
       list-style-type: none;
   }
 
@@ -19,6 +18,12 @@
   }
 
   h1 {
+    color: #5d170c;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  h4 {
     color: #5d170c;
     font-weight: bold;
     text-shadow: 1px 1px 2px black;
@@ -321,86 +326,6 @@
   padding-top: 15px;
 }
 
-/* .container-skillbar {
-    width:100%;
-    padding-top:30px;
-    padding-right: 2%;
-    padding-left: 2%;
-    height:auto;
-    overflow:none;
-  }
-  .skillbar {
-    position:relative;
-    display:block;
-    margin-bottom:15px;
-    width:100%;
-    background:#efefef;
-    height:30px;
-    border-radius:3px;
-    -moz-border-radius:3px;
-    -webkit-border-radius:3px;
-    -webkit-transition:0.4s linear;
-    -moz-transition:0.4s linear;
-    -ms-transition:0.4s linear;
-    -o-transition:0.4s linear;
-    transition:0.4s linear;
-    -webkit-transition-property:width, background-color;
-    -moz-transition-property:width, background-color;
-    -ms-transition-property:width, background-color;
-    -o-transition-property:width, background-color;
-    transition-property:width, background-color;
-  }
-
-  .skillbar-title {
-    position:absolute;
-    top:0;
-    left:0;
-    width:110px;
-    font-weight:bold;
-    font-size:13px;
-    color:#fff;
-    background:#6adcfa;
-    -webkit-border-top-left-radius:3px;
-    -webkit-border-bottom-left-radius:4px;
-    -moz-border-radius-topleft:3px;
-    -moz-border-radius-bottomleft:3px;
-    border-top-left-radius:3px;
-    border-bottom-left-radius:3px;
-  }
-
-  .skillbar-title span {
-    display:block;
-    background:rgba(0, 0, 0, 0.15);
-    padding:0 20px;
-    height:30px;
-    line-height:30px;
-    -webkit-border-top-left-radius:3px;
-    -webkit-border-bottom-left-radius:3px;
-    -moz-border-radius-topleft:3px;
-    -moz-border-radius-bottomleft:3px;
-    border-top-left-radius:3px;
-    border-bottom-left-radius:3px;
-  }
-
-  .skillbar-bar {
-    height:30px;
-    width:0px;
-    border-radius:3px;
-    -moz-border-radius:3px;
-    -webkit-border-radius:3px;
-  }
-
-  .skill-bar-percent {
-    position:absolute;
-    right:10px;
-    top:0;
-    font-size:11px;
-    height:30px;
-    line-height:30px;
-    color:#ffffff;
-    color:rgba(0, 0, 0, 0.5);
-  } */
-
   /* portfolio section */
   #portfolio {
     background: url("http://www.tuchmobile.com/wp-content/uploads/2017/05/personal-website.jpeg");
@@ -412,9 +337,28 @@
     /* height: 50vh; */
   }
 
-  /* .activator {
-    width: 50vw;
-  } */
+  .carousel {
+    height: 41vh;
+  }
+
+  #portfolio p {
+    color: #c5c7bf;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  .project-links a{
+    color: white;
+    padding: 0px 5px 0px 5px;
+  }
+
+  .project-links a:hover {
+    color: #5d170c;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
 
   .content {
     margin-left: auto;
@@ -467,14 +411,14 @@
   animation-play-state: running;
 }
 
-    @keyframes shake {
+    /* @keyframes shake {
     0%, 100% {transform: translateX(0);}
     10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);}
     20%, 40%, 60%, 80% {transform: translateX(10px);}
   }
     .shake {
       animation-name: shake;
-    }
+    } */
 
 
   /* input field styles */
