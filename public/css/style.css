@@ -223,7 +223,7 @@
   }
 
   .aboutme {
-    background-image: url('../personal_website_background.jpeg');
+    background-image: url('../assets/personal_website_background.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -328,7 +328,7 @@
 
   /* portfolio section */
   #portfolio {
-    background-image: url('../personal_website_background.jpeg');
+    background-image: url('../assets/personal_website_background.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
