@@ -223,7 +223,7 @@
   }
 
   .aboutme {
-    background: url("http://www.tuchmobile.com/wp-content/uploads/2017/05/personal-website.jpeg");
+    background-image: url('../personal_website_background.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -328,7 +328,7 @@
 
   /* portfolio section */
   #portfolio {
-    background: url("http://www.tuchmobile.com/wp-content/uploads/2017/05/personal-website.jpeg");
+    background-image: url('../personal_website_background.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
