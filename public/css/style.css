@@ -20,19 +20,19 @@
   h1 {
     color: #5d170c;
     font-weight: bold;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 2px 2px 2px black;
   }
 
   h4 {
     color: #5d170c;
     font-weight: bold;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 2px 2px 2px black;
   }
 
   h3 {
     color: #c5c7bf;
     font-weight: bold;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 2px 2px 2px black;
   }
 
   p {
@@ -239,7 +239,7 @@
   }
 
   .fuzzy {
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 2px 2px 2px black;
   }
 
   .aboutme p {
@@ -349,7 +349,12 @@
 
   #portfolio p {
     color: #c5c7bf;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 2px 2px 2px black;
+  }
+
+  .desc-child {
+    width: 70%;
+    margin-left: 15%;
   }
 
   .project-links a{
