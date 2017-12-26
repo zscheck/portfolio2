@@ -25,7 +25,7 @@ app.post('/thanks', (req, res) => {
     console.log('req', req.body.name, req.body.message);
     const msg = {
         to: 'zach.scheck@gmail.com',
-        from: 'zachscheck@web.com',
+        from: 'zach.scheck@gmail.com',
         subject: 'Sending with SendGrid is Fun',
         text: 'Name: '+req.body.name + 'Email: ' + req.body.email + 'Message: '+ req.body.message,
         html: '<strong>Name: </strong>'+req.body.name + '<br><strong>Email: </strong>' + req.body.email + '<br><strong>Message: </strong>'+ req.body.message,
