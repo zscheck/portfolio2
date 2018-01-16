@@ -42,6 +42,7 @@
 
   .section {
     text-align: center;
+    justify-content: center;
   }
 
   .skillbar {
@@ -343,19 +344,31 @@
     /* height: 50vh; */
   }
 
-  .carousel {
-    height: 41vh;
+  .card {
+    height: 25vh;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  /* .projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: column wrap;
+  } */
+  /* .carousel {
+    height: 41vh;
+  } */
 
   #portfolio p {
     color: #c5c7bf;
     text-shadow: 2px 2px 2px black;
   }
 
-  .desc-child {
+  /* .desc-child {
     width: 70%;
     margin-left: 15%;
-  }
+  } */
 
   .project-links a{
     color: white;
