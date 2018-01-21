@@ -346,18 +346,18 @@
     background-attachment: fixed;
     background-size: cover;
     width: 100vw;
-    /* height: 50vh; */
   }
 
   #portfolio-display {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    height: 75vh;
   }
   
   #portfolio-center {
     display: flex;
+    flex: 1 0 100%;
     width: 100vw;
     justify-content: space-around;
     align-items: flex-start;
@@ -372,37 +372,35 @@
 
   .port-project {
     box-shadow: 0px 0px 10px #000000;
-    width: 25vw;
+    width: 40vw;
     border-radius: 2%;
     margin: 1vh;
   }
   
   .port-project:hover {
     transition: all 750ms ease-in-out;
-    transform: scale(1.05);
+    opacity: .6;
+    filter: drop-shadow(0px 0px 20px #5d170c);
+    border-color: #5d170c;
   }
   
   .port-desc {
-    width: 25vw;
+    width: 40vw;
     margin: 0px;
     padding: 3px;
     text-align: justify;
+    background: linear-gradient(rgba(14, 14, 14, 0.42),rgba(14, 14, 14, 0.42))
   }
 
-  /* .projects {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-flow: column wrap;
-  } */
-  /* .carousel {
-    height: 41vh;
-  } */
-
   #portfolio p {
-    color: #c5c7bf;
+    /* color: #c5c7bf;
     text-shadow: 2px 2px 2px black;
+    -webkit-text-stroke: 1px black;  */
+    color: #fff;
+    text-shadow: #000 2px 2px 2px;
+    -webkit-font-smoothing: antialiased;
     font-size: 1em;
+    /* font-weight: 200; */
   }
 
   #portfolio h3 {
@@ -418,6 +416,7 @@
   .project-links a{
     color: white;
     padding: 0px 5px 0px 5px;
+    text-shadow: #000 2px 2px 2px;
   }
 
   .project-links a:hover {
