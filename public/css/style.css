@@ -132,7 +132,8 @@
    position: fixed;
   width: 100%;
   z-index: 500;
-  background-color: rgba(0, 0, 0, 0.007);
+  /* background: linear-gradient(rgba(14, 14, 14, 0.42),rgba(14, 14, 14, 0.42)) */
+  background-color: rgba(14, 14, 14, 0.05);
   }
 
   .header-links li {
