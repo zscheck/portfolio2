@@ -32,7 +32,7 @@
   h3 {
     color: #c5c7bf;
     font-weight: bold;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 3px 3px 3px black;
   }
 
   p {
@@ -406,7 +406,6 @@
 
   #portfolio h3 {
     padding: 10px 0px;
-    color: #5d170c;
   }
 
   /* .desc-child {
