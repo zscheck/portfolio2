@@ -239,7 +239,7 @@
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
   }
 
@@ -352,7 +352,7 @@
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
-    width: 100vw;
+    height: 100vh;
   }
 
   #portfolio-display {
