@@ -670,7 +670,7 @@
 
   }
 
-  @media (min-width: 320px) and (max-width: 1200px) {
+  @media (min-width: 320px) and (max-width: 1200px) and (false) {
     #portfolio-display {
       flex-direction: column;
       align-content: center;
