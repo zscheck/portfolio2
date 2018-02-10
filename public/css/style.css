@@ -235,6 +235,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
     background-size: cover;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -348,6 +351,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
     background-size: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
