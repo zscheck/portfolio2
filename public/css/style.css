@@ -349,10 +349,11 @@
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
     width: 100vw;
+    height: 100%;
   }
 
   #portfolio-display {
