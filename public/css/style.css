@@ -670,8 +670,8 @@
 
   }
 
-  @media (min-width: 320px) and (max-width: 1200px) and (false) {
-    #portfolio-display {
+  @media (min-width: 320px) and (max-width: 1200px) {
+    /* #portfolio-display {
       flex-direction: column;
       align-content: center;
       height: auto;
@@ -695,7 +695,7 @@
 
     .port-desc {
       width: 90vw;
-    }
+    } */
   }
 
   @-webkit-keyframes sk-stretchdelay {
