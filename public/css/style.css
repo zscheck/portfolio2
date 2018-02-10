@@ -235,11 +235,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: 100% 100%;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    /* width: 100vw; */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100vw;
     height: 100vh;
   }
 
@@ -348,12 +348,12 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: 100% 100%;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    /* width: 100vw; */
-    /* height: 100vh; */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100vw;
+    height: 100vh;
   }
 
   #portfolio-display {
@@ -671,7 +671,7 @@
   }
 
   @media (min-width: 320px) and (max-width: 1200px) {
-    /* #portfolio-display {
+    #portfolio-display {
       flex-direction: column;
       align-content: center;
       height: auto;
@@ -695,7 +695,7 @@
 
     .port-desc {
       width: 90vw;
-    } */
+    }
   }
 
   @-webkit-keyframes sk-stretchdelay {
